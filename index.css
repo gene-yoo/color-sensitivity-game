@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+}
+
+#wrapper {
+	text-align: center;
+}
+
+h1 {
+	font-size: 1em;
+	text-align: center;
+}
+
+#canvas {
+	border: 2px solid black;
+	background-color: black;
+	width: 500px;
+	margin: auto;
+
+	display: grid;
+	grid-template-columns: repeat(20, 1fr);
+	grid-auto-rows: auto;
+}
+
+.box {
+	/*border: 0.5px solid grey;*/
+	/*color: white;*/
+	background-color: white;
+	font-size: 0.5em;
+	max-width: 25px;
+	max-height: 25px;
+	text-align: center;
+	line-height: 25px;
+	margin: 0;
+}
+
+.black {
+	background-color: black;
+}
+
+.white {
+	background-color: white;
+}
+
+.orange {
+	background-color: orange;
+}
